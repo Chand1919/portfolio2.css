@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>MY PORTFOLIO</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="profile">
+                <img src="images/job pic .jpg" alt="Profile Picture" class="profile-img" width="15%" height="15%">
+                <p>Hello! I'm Chand Kumari, a Machine Learning Engineer and Web Developer. I love building projects and learning new technologies.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Project 1</h3>
+                    <p>Resume HTML - <a href="https://github.com/Chand1919/resume-html.git" target="_blank">GitHub</a></p>
+                </div>
+                <div class="project-card">
+                    <h3>Project 2</h3>
+                    <p>Full Stack 1 - <a href="https://github.com/Chand1919/full-stack-1.git" target="_blank">GitHub</a></p>
+                </div>
+                <div class="project-card">
+                    <h3>Project 3</h3>
+                    <p>Music AI - <a href="https://github.com/Chand1919/Music-recommendation-Using-Artificial-intelligence.git" target="_blank">GitHub</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:chandkumari1911@gmail.com">chandkumari1911@gmail.com</a></p>
+            <p>GitHub: <a href="https://github.com/Chand1919" target="_blank">github.com/Chand1919</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/chand-kumari" target="_blank">linkedin.com/in/chand-kumari</a></p>
+        </div>
+    </section>
+
+    <section id="resume" class="section">
+        <div class="container">
+            <h2>Resume</h2>
+            <p><a href="resume.pdf" download class="btn">Download My Resume</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Chand Kumari. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <div class="scroll-top" onclick="scrollToTop()">
+        &#8593;
+    </div>
+
+    <script>
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
